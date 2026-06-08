@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Awareness Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Carbon Footprint Calculator</h1>
+
+        <label>Daily Travel Distance (km)</label>
+        <input type="number" id="distance">
+
+        <label>Transport Type</label>
+        <select id="transport">
+            <option value="car">Car</option>
+            <option value="bus">Bus</option>
+            <option value="train">Train</option>
+            <option value="bike">Bike</option>
+            <option value="walking">Walking</option>
+        </select>
+
+        <label>Monthly Electricity Bill (₹)</label>
+        <input type="number" id="electricity">
+
+        <label>Food Preference</label>
+        <select id="food">
+            <option value="veg">Vegetarian</option>
+            <option value="nonveg">Non-Vegetarian</option>
+        </select>
+
+        <button onclick="calculateCarbon()">Calculate</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
