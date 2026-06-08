@@ -70,3 +70,14 @@ https://github.com/Sabavath-lab/carbon-footprint-awareness-platform
 Sabavath Sujatha
 
 Built for PromptWars 2026 in collaboration with Google for Developers.
+## Testing
+
+The application has been manually tested using multiple user scenarios including low, medium, and high carbon footprint inputs.
+
+## Accessibility Features
+
+- Semantic HTML structure
+- Form labels
+- ARIA labels for inputs and buttons
+- Responsive layout
+- Keyboard-friendly interface
